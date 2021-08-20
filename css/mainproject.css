@@ -1,0 +1,296 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+.home  .navbar{
+
+
+overflow: auto;
+
+
+}
+.home .navbar  ul{
+
+
+list-style-type: none;
+
+}
+.home .navbar  ul  li{
+
+
+
+    float: right;
+
+
+    margin: 10px;
+    
+}
+.home  .navbar h1{
+
+    margin: 5px,10px,0px,20px;
+    padding: 9px;
+
+
+}
+ 
+.home .navbar  ul li  a{
+
+text-decoration: none;
+font-size: 20px;
+
+}
+.home  .container{
+
+    overflow: auto;
+    width: 90%;
+    align-items: center;
+   padding-left: 50px;
+} 
+
+
+.home .container .im  img{
+
+    width: 95%;
+    height: 200px;
+ padding-left: 30px;
+
+
+
+
+}
+
+
+.home  .container .imm  img{
+
+    width:140px;
+    height:100px ;
+ padding-left: 45px;
+ 
+margin-top: 20px;
+
+
+
+}
+
+.home  .aboutcontent{
+    width: 90%;
+    margin: auto;
+align-items: center;
+
+}
+
+
+.home  .aboutcontent   .item{
+
+width: 33%;
+text-align:left;
+
+display: inline-block;
+
+
+
+}
+.home  .aboutcontent   .item  h3{
+
+margin: 0px 10px;
+}
+
+.home  .aboutcontent   .item   p{
+    font-family: 'Cairo', sans-serif;
+}
+
+.home .layout .aboutcontent  img{
+    width: 50px;
+    float: left;
+  
+    
+    }
+    .home .layout .aboutcontent  button{
+
+        border: 1px solid  black;
+        width: 20%;
+        padding: 10px  15px;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0px  0px;
+      background-color: chocolate;
+    }
+
+    .home .layout .hh{
+
+
+        width: 90%;
+        margin: auto;
+
+    }
+   
+
+    .home .layout .hh  .hrh1  .h{
+
+        width: 33%;
+
+
+display: inline-block;
+
+    }
+    
+
+    
+    .main{
+        width: 90%;
+        margin: auto;
+
+    }
+    
+   
+    .main hr
+    {
+        width: 33%;
+        height: 10px;
+        background-color: black;
+       
+
+
+        display: inline-block;
+        
+
+    }
+                .home .layout .below{
+
+                 
+                    width: 90%;
+                    margin: auto;
+                }
+                
+
+                .home .layout .footer{
+                 
+                    width: 33%;
+                    text-align:left;
+                    
+                    display: inline-block;
+                    
+                }
+
+                
+          .home .layout .footer     h3{
+
+           
+                    color:black;
+                }
+                .home .layout .footer       img{
+                width: 25%;
+               
+             
+                }
+                .home   .layout .end  {
+                    width: 90%;
+                    margin: auto;
+                    background-color: coral;
+                    margin-top: 20px;
+                }
+
+
+                .home   .layout .end   .playerandclubs  .club{
+
+
+                    width: 33%;
+                    text-align:left;
+                    
+                    display: inline-block;
+
+                }
+
+
+
+                @media(max-width:600px) {
+
+                    .home .navbar ul li {
+                        float: right;
+                
+                
+                        margin-right: 10px;
+                
+                
+                    }
+                
+                    .home .navbar h1 {
+                
+                        font-size: 20px;
+                        color: red;
+                        margin: 4px 5px;
+                
+                    }
+                
+                    .home .navbar ul li a {
+                
+                        text-decoration: none;
+                        font-size: 15px;
+                
+                    }
+                
+                
+                
+                    .home .container {
+                        overflow: auto;
+                        width: 56%;
+                
+                        padding-left: 50px;
+                    }
+                
+                
+                .home .container .im img {
+                
+                    width: 85%;
+                    height: 100px;
+                
+                    
+                    justify-content:space-around;
+                    flex-wrap: wrap   ;
+                
+                
+                
+                }
+                .home  .aboutcontent .item{
+                
+                width: 100%;
+                margin-top: 10px;
+                
+                
+                }
+                
+                .main hr
+                    {
+                        width: 95%;
+                        height: 10px;
+                        background-color: black;
+                       
+                
+                
+                        display: inline-block;
+                        
+                
+
+
+                    }
+
+
+                    .home .layout .footer{
+
+                 width: 100%;
+                        margin-top: 10px
+                        ;
+                        
+                    }
+                    .home   .layout .end   .playerandclubs  .club{
+
+
+                        width: 100%;
+                    
+    
+                    } 
+                
+                }
